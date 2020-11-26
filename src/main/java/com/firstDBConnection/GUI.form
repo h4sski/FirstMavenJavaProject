@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.firstDBConnection.GUI">
+  <grid id="27dc6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+    <constraints>
+      <xy x="20" y="20" width="809" height="433"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="36a5f" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="15634" class="javax.swing.JTable" binding="table1" default-binding="true">
+        <constraints/>
+        <properties>
+          <autoCreateRowSorter value="true"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
