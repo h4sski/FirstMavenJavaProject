@@ -10,7 +10,6 @@ public class ECRs {
         this.setDefaultValues();
     }
 
-//    set methods
     private void setDefaultValues () {
         ECRsTable = new Object[][]{
                 {1, 509123, "Name of the ECR 509987", "PR509987", "CR509987", "CN509987", "ECO509987", "PARAT", "NPI", "Active", true, ""},
@@ -25,10 +24,7 @@ public class ECRs {
         columnWidth = new int[] {     20,    60,    200,           80,   80,   80,   80,    70,         80,     80,       40,          30};
     }
 
-//    get methods
-    public Object[][] getECRsTableObjectArray() {
-        return ECRsTable;
-    }
+    public Object[][] getECRsTableObjectArray() { return ECRsTable; }
     public String[] getColumnHeaders() {
         return columnHeaders;
     }

@@ -6,9 +6,7 @@ public class FirstDBConnection {
 
 
     public static void main(String[] args) {
-//        new HelloWorld();
         new GUI();
-//        newFrame();
     }
 
     public static void newFrame() {
